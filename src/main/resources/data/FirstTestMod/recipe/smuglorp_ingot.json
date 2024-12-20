@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "firsttestmod:smuglorp_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "firsttestmod:smuglorp_ingot"
+  }
+}
