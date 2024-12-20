@@ -1,5 +1,7 @@
 package net.crunchydev.firsttestmod;
 
+import net.crunchydev.firsttestmod.block.ModBlocks;
+import net.crunchydev.firsttestmod.item.ModItemGroups;
 import net.crunchydev.firsttestmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +15,10 @@ public class FirstTestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 }

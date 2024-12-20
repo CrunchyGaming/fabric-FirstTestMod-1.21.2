@@ -10,7 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item ITEM_NAME = registerItem("item_name", new Item(new Item.Settings()));
+    public static final Item SMUGLORP_INGOT = registerItem("smuglorp_ingot", new Item(new Item.Settings()));
+    public static final Item SMUGLORP_DUST = registerItem("smuglorp_dust", new Item(new Item.Settings()));
 
 
 
@@ -22,7 +23,8 @@ public class ModItems {
         FirstTestMod.LOGGER.info("Registering Mod Items for " + FirstTestMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ITEM_NAME);
+            fabricItemGroupEntries.add(SMUGLORP_INGOT);
+            fabricItemGroupEntries.add(SMUGLORP_DUST);
         });
     }
 
