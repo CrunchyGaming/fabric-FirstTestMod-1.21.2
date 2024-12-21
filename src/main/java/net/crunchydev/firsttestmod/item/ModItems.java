@@ -1,6 +1,7 @@
 package net.crunchydev.firsttestmod.item;
 
 import net.crunchydev.firsttestmod.FirstTestMod;
+import net.crunchydev.firsttestmod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,6 +13,8 @@ public class ModItems {
 
     public static final Item SMUGLORP_INGOT = registerItem("smuglorp_ingot", new Item(new Item.Settings()));
     public static final Item SMUGLORP_DUST = registerItem("smuglorp_dust", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
 
 

@@ -19,6 +19,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SMUGLORP_DUST);
                         entries.add(ModItems.SMUGLORP_INGOT);
+
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup SMUGLORP_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -28,6 +30,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SMUGLORP_DUST_BLOCK);
                         entries.add(ModBlocks.SMUGLORP_BLOCK);
+
                         entries.add(ModBlocks.SMUGLORP_ORE);
                         entries.add(ModBlocks.SMUGLORP_DEEPSLATE_ORE);
                     }).build());

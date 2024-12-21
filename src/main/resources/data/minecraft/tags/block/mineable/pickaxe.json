@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firsttestmod:smuglorp_block",
+    "firsttestmod:smuglorp_deepslate_ore",
+    "firsttestmod:smuglorp_dust_block",
+    "firsttestmod:smuglorp_ore"
+  ]
+}
