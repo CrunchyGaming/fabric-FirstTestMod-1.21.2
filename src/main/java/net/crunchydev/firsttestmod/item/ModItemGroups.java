@@ -28,6 +28,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SMUGLORP_DUST_BLOCK);
                         entries.add(ModBlocks.SMUGLORP_BLOCK);
+                        entries.add(ModBlocks.SMUGLORP_ORE);
+                        entries.add(ModBlocks.SMUGLORP_DEEPSLATE_ORE);
                     }).build());
 
 
