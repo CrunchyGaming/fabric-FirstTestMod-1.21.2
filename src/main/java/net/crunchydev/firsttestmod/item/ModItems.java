@@ -15,6 +15,9 @@ public class ModItems {
     public static final Item SMUGLORP_DUST = registerItem("smuglorp_dust", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item MEATBALL_SPAGHETTI = registerItem("meatball_spaghetti", new Item(new Item.Settings().food(ModFoodComponents.MEATBALL_SPAGHETTI)));
+
+
 
 
 
