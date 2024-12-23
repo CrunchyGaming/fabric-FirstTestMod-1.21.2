@@ -3,6 +3,7 @@
   "item.firsttestmod.smuglorp_dust": "Smuglorp Dust",
   "item.firsttestmod.chisel": "Chisel",
   "item.firsttestmod.meatball_spaghetti": "Spaghetti & Meatballs",
+  "item.firsttestmod.lorp_fuel": "Lorp Fuel",
 
   "block.firsttestmod.smuglorp_block": "Block of Smuglorp",
   "block.firsttestmod.smuglorp_dust_block": "Block of Smuglorp Dust",
@@ -11,5 +12,11 @@
   "block.firsttestmod.magic_block": "Magic Block",
 
   "itemgroup.firsttestmod.smuglorp_items": "Smuglorp Items",
-  "itemgroup.firsttestmod.smuglorp_blocks": "Smuglorp Blocks"
+  "itemgroup.firsttestmod.smuglorp_blocks": "Smuglorp Blocks",
+
+  "tooltip.firsttestmod.magic_block.tooltip": "This §9MAGICAL§r block converts smuglorp dust into diamonds",
+  "tooltip.firsttestmod.magic_block.tooltip.2": "Has a small chance of death (not coded yet)",
+  "tooltip.firsttestmod.chisel.shift_down": "This item chisels blocks into bricks",
+  "tooltip.firsttestmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.firsttestmod.meatball_spaghetti.tooltip": "Delicious Food"
 }

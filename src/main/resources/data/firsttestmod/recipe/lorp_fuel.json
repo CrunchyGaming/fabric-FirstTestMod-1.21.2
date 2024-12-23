@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "firsttestmod:smuglorp_dust"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "#CR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firsttestmod:lorp_fuel"
+  }
+}

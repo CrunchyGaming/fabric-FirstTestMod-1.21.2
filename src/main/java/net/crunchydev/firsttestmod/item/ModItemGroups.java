@@ -22,6 +22,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.MEATBALL_SPAGHETTI);
+                        entries.add(ModItems.LORP_FUEL);
                     }).build());
 
     public static final ItemGroup SMUGLORP_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
