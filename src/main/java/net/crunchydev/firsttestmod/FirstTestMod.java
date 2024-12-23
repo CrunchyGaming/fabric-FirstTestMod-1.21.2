@@ -21,7 +21,7 @@ public class FirstTestMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.LORP_FUEL, 5000);
+		FuelRegistry.INSTANCE.add(ModItems.LORP_FUEL, 4000);
 	}
 
 }

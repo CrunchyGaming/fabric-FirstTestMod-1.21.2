@@ -14,7 +14,7 @@
   "itemgroup.firsttestmod.smuglorp_items": "Smuglorp Items",
   "itemgroup.firsttestmod.smuglorp_blocks": "Smuglorp Blocks",
 
-  "tooltip.firsttestmod.magic_block.tooltip": "This §9MAGICAL§r block converts smuglorp dust into diamonds",
+  "tooltip.firsttestmod.magic_block.tooltip": "This §9MAGICAL§r block converts smuglorp dust,lorp fuel, and golden apples into diamonds",
   "tooltip.firsttestmod.magic_block.tooltip.2": "Has a small chance of death (not coded yet)",
   "tooltip.firsttestmod.chisel.shift_down": "This item chisels blocks into bricks",
   "tooltip.firsttestmod.chisel": "Press §eShift§r for more Information",
