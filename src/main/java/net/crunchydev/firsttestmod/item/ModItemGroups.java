@@ -33,6 +33,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.SMUGLORP_ORE);
                         entries.add(ModBlocks.SMUGLORP_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 

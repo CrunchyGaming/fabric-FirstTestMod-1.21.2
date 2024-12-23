@@ -5,9 +5,9 @@
 
   "block.firsttestmod.smuglorp_block": "Block of Smuglorp",
   "block.firsttestmod.smuglorp_dust_block": "Block of Smuglorp Dust",
-
   "block.firsttestmod.smuglorp_ore": "Smuglorp Ore",
   "block.firsttestmod.smuglorp_deepslate_ore": "Smuglorp Deepslate Ore",
+  "block.firsttestmod.magic_block": "Magic Block",
 
   "itemgroup.firsttestmod.smuglorp_items": "Smuglorp Items",
   "itemgroup.firsttestmod.smuglorp_blocks": "Smuglorp Blocks"

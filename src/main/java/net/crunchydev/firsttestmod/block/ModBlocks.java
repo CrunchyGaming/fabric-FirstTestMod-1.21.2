@@ -1,6 +1,7 @@
 package net.crunchydev.firsttestmod.block;
 
 import net.crunchydev.firsttestmod.FirstTestMod;
+import net.crunchydev.firsttestmod.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -26,6 +27,9 @@ public class ModBlocks {
     public static final Block SMUGLORP_DEEPSLATE_ORE = registerBlock("smuglorp_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
 
 
     private static Block registerBlock(String name, Block block) {
